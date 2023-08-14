@@ -1,0 +1,21 @@
+{
+  "name": "solid-version",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.8",
+    "styles": "workspace:*"
+  },
+  "devDependencies": {
+    "@vanilla-extract/css": "^1.12.0",
+    "@vanilla-extract/vite-plugin": "^3.8.2",
+    "vite": "^4.4.5",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
